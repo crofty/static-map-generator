@@ -1,11 +1,8 @@
-# Simple Site
+# Google Static Map Generator
 
-A bootstrap folder that I use when throwing together simple sites.  This allows me to get up and running quickly using HAML, SASS, CoffeeScript, Compass, Susy and a few default styles.
+A simple tool that helps with generating Google Static Maps.  It uses a slippy map so that the user can position the map how they want it and then generates the corresponding static map URL.
 
-To run the site locally with 
+Information on the bounding box of the static map is also provided, this is often useful but is not possible to get just by using the static maps API.
 
-    bundle exec rackup config.ru
 
-If you want to compile the assets without running the server, run
 
-    bundle exec rakep
